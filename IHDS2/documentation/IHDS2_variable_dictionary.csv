@@ -1,0 +1,759 @@
+variable,label
+SURVEY,IHDS-I (2005) or IHDS-II (2012)
+STATEID,HQ0 State code
+DISTID,HQ0 District code
+PSUID,HQ0 PSU: village/neighborhood code
+HHID,HQ0 Household ID (3-digit)
+HHSPLITID,HQ0 Split household ID
+IDPSU,PSU id unique 6 digit long int =cluster
+IDHH,"Household id, unique 10 byte string"
+WT,Weights in IHDS-II
+INDWT,Weights hh->pop in IHDS-II
+FWT,Integer weights in IHDS-II
+INDFWT,Integer weights hh->pop in IHDS-II
+DIST01,District ID corrected Census 2001
+DISTRICT,"2001 Census state id + district id, labeled"
+HS3D,HQ2 3 Interview day
+HS3M,HQ2 3 Interview month
+HS3Y,HQ2 3 Interview year
+HS3DATE,HQ2 3 Interview (integer) date
+HS4A,HQ2 4a Interview start hour
+HS4B,HQ2 4b Interview start minute
+HS4C,HQ2 4c Interview start AM/PM
+ID11,HQ3 1.11 Religion
+ID12ANM,HQ3 1.12a Caste name
+ID12BNM,HQ3 1.12b Subcaste name
+ID13,HQ3 1.13 Caste category
+GROUPS,HQ3 1.13-15 Caste & religion
+ID14,HQ3 1.14 Main income source
+ID14NM,HQ3 1.14 Other income source
+ID15,HQ3 1.15 Years in place
+ID16,HQ3 1.16 Place of Origin
+ID17,HQ3 1.17 Type of origin place
+ID18A,HQ3 1.18a Occupation household head's father/husband's father
+ID18ANM,HQ3 1.18a Occupation household head's father/husband's father (verbatim)
+ID18B,HQ3 1.18b Industry household head's father/husband's father
+ID18BNM,HQ3 1.18b Industry household head's father/husband's father (verbatim)
+ID18C,HQ3 1.18c Education head's father/husband
+MG1,HQ6 4.1 HH seasonal migrant work
+FM1,HQ7 5.1 Any owned or cultivated
+FM2,HQ7 5.2 Local area unit name
+FM3,HQ7 5.3 Local units/acre
+FM4A,HQ7 5.4a Owned kharif
+FM4B,HQ7 5.4b Owned rabi
+FM4C,HQ7 5.4c Owned summer
+FM5A,HQ7 5.5a Rented in kharif
+FM5B,HQ7 5.5b Rented in rabi
+FM5C,HQ7 5.5c Rented in summer
+FM6A,HQ7 5.6a Rented out kharif
+FM6B,HQ7 5.6b Rented out rabi
+FM6C,HQ7 5.6c Rented out summer
+FM7A,HQ7 5.7a Total holding kharif
+FM7B,HQ7 5.7b Total holding rabi
+FM7C,HQ7 5.7c Total holding summer
+FM8A,HQ7 5.8 Orchards/Plantations
+FM9A,"HQ7 5.9 Pastures, permanent fallow"
+FM10A,HQ7 5.10a Fallow kharif
+FM10B,HQ7 5.10b Fallow rabi
+FM10C,HQ7 5.10c Fallow summer
+FM11A,HQ7 5.11a Cultivated kharif
+FM11B,HQ7 5.11b Cultivated rabi
+FM11C,HQ7 5.11c Cultivated summer
+FM12A,HQ7 5.12a Irrigated kharif
+FM12B,HQ7 5.12b Irrigated rabi
+FM12C,HQ7 5.12c Irrigated summer
+FM13A,HQ7 5.13a Irrigation type 1
+FM13B,HQ7 5.13b Irrigation type 2
+FM14A,HQ7 5.14a Cash|Crop rented out
+FM14B,HQ7 5.14b Rs land rented out
+FM14C,HQ7 5.14c Crop % land rented out
+FM14D,HQ7 5.14d Crop Rs land rented out
+FM15A,HQ7 5.15a Cash Crop rented in
+FM15B,HQ7 5.15b Rs paid land rented in
+FM26A,HQ7 5.26a Crop residue total value (rupees)
+FM26B,HQ7 5.26b Crop residue sold (rupees)
+FM26C,HQ7 5.26b Crop residue kept for own use
+FM27A,HQ9 5.27a Hired farm labour days
+FM27B,HQ9 5.27b Hired farm labour Rs
+FM27C,HQ9 5.27c Meals to workers (per day)
+FM28A,HQ9 5.28a Seeds Rs
+FM28B,HQ9 5.28b Seeds Homegrown
+FM29,HQ9 5.29 Fertilizers Rs
+FM30,HQ9 5.30 Pesticides Rs
+FM31,HQ9 5.31 Irrigation water Rs
+FM32,HQ9 5.32 Hired Equipment/Animals Rs
+FM33,HQ9 5.33 Agriculture loan repayment Rs
+FM34,HQ9 5.34 Farm miscellaneous Rs
+FM39A,HQ10 5.39a ID farm decision-maker
+FM39B,HQ10 5.39b How land acquired
+FM39C1,HQ10 5.39c1 Land in whose name #1
+FM39C2,HQ10 5.39c2 Land in whose name #2
+FM39C3,HQ10 5.39c3 Land in whose name #3
+FM40A,HQ10 5.40a Own: Tubewells
+FM40B,HQ10 5.40b Own: Electric Pumps
+FM40C,HQ10 5.40c Own: Diesel pumps
+FM40D,HQ10 5.40d Own: Bullock carts/Dunlop carts
+FM40E,HQ10 5.40e Own: Tractors/Tillers
+FM40F,HQ10 5.40f Own: Threshers
+FM40G,HQ10 5.40g Own: Hand/Power Sprayer
+FM40H,HQ10 5.40h Own: Chaff cutter
+FM40I,HQ10 5.40i Own: Drip irrigation
+FM40J,HQ10 5.40j Own: Sprinkler set
+FM40K,HQ10 5.40k Own: Seed drill
+FM41A,HQ10 5.41a New farm equipt Rs
+FM41B,HQ10 5.41b Rent out equipt Rs
+FM41C,HQ10 5.41c Other farm income (rupees)
+FM41D,HQ10 5.41d Farm production last year
+AN1,HQ11 6.1 Owns livestock
+AN1A,HQ11 6.1a Milch cows
+AN1B,HQ11 6.1b Milch buffalos
+AN1C,"HQ11 6.1c Draft animals (bullocks, buffaloes)"
+AN1D,HQ11 6.1d Goats
+AN1E,HQ11 6.1e Sheep
+AN1F,"HQ11 6.1f Poultry, chickens, ducks"
+AN1G,"HQ11 6.1g Other (calves, pigs, camels, donkey, etc.)"
+AN2A,HQ11 6.2a Milk & Milk products Rs
+AN2B,"HQ11 6.2b Poultry, eggs, meat, wool, etc. Rs"
+AN2C,HQ11 6.2c Selling livestock (including calves) Rs
+AN2D,HQ11 6.2d Buy livestock (including calves) Rs
+AN2E,HQ11 6.2e Current livestock value Rs
+AN3A1,HQ11 6.3a Feed & Fodder Purchased (rupees)
+AN3A2,HQ11 6.3a Feed & Fodder home grown (rupees)
+AN3B1,HQ11 6.3b1 Veterinary services Rs
+AN3B2,HQ11 6.3b2 Grazing labour Rs
+AN3B3,"HQ11 6.3b3 Other agricultural expenses (ropes, chain, transport, etc.) Rs"
+AN7,HQ11 6.7 Animal care: Primary ID
+NF1,"HQ14 8.1 Any nonfarm business, corrected"
+NF1N,"HQ14-6 8.1 N nonfarm business, corrected"
+NFBN1,HQ14 8(1) Busns1: 1st business
+NF1ANM,HQ14 8.1a Busns1: Ind name
+NF1A,HQ14 8.1a Busns1: Industry
+NF1BNM,HQ14 8.1b Busns1: Occ name
+NF1B,HQ14 8.1b Busns1: Occupation
+NF2,HQ14 8.2 Busns1: Partnership
+NF3,HQ14 8.3 Business 1: Gross receipts (rupees)
+NF4A,HQ14 8.4a Business 1: Rent (rupees)
+NF4B,"HQ14 8.4b Business 1: Utilities, transportation (rupees)"
+NF4C,HQ14 8.4c Business 1: Paid workers (rupees)
+NF4D,HQ14 8.4d Business 1: Raw materials & inputs (rupees)
+NF4E,"HQ14 8.4e Business 1: Business loan installment, interest, etc. (rupees)"
+NF4F,HQ14 8.4f Business 1: Other costs including taxes (rupees)
+NF4G,HQ14 8.4g Business 1: Total expenses (rupees)
+NF5,HQ14 8.5 Business 1: Net income (rupees)
+NF6,HQ14 8.6 Business 1: Investments (rupees)
+NF7,HQ14 8.7 Busns1: Work place
+NF8,HQ14 8.8 Busns1: Family work
+NF14,HQ14 8.14 Business 1: Total loss (rupees)
+NF15,HQ14 8.15 Business 1: Primary decision maker (ID)
+NFBN21,HQ15 8(2) Busns2: 2nd business
+NF21ANM,HQ15 8.21a Busns2: Ind name
+NF21A,HQ15 8.21a Busns2: Industry
+NF21BNM,HQ15 8.21b Busns2: Occ name
+NF21B,HQ15 8.21b Busns2: Occupation
+NF22,HQ15 8.22 Busns2: Partnership
+NF23,HQ15 8.23 Business 2: Gross receipts (rupees)
+NF24A,HQ15 8.24a Business 2: Rent (rupees)
+NF24B,"HQ15 8.24b Business 2: Utilities, transportation (rupees)"
+NF24C,HQ15 8.24c Business 2: Paid workers (rupees)
+NF24D,HQ15 8.24d Business 2: Raw materials & inputs (rupees)
+NF24E,"HQ15 8.24e Business 2: Business loan installment, interest, etc. (rupees)"
+NF24F,HQ15 8.24f Business 2: Other costs including taxes (rupees)
+NF24G,HQ15 8.24g Business 2: Total expenses (rupees)
+NF25,HQ15 8.25 Business 2: Net income (rupees)
+NF26,HQ15 8.26 Business 2: Investments (rupees)
+NF27,HQ15 8.27 Busns2: Work place
+NF28,HQ15 8.28 Busns2: Family work
+NF34,HQ15 8.34 Business 2: Total loss (rupees)
+NF35,HQ15 8.35 Business 2: Primary decision maker (ID)
+NFBN41,HQ16 8(3) Busns3: 3rd business
+NF41ANM,HQ16 8.41a Busns3: Ind name
+NF41A,HQ16 8.41a Busns3: Industry
+NF41BNM,HQ16 8.41b Busns3: Occ name
+NF41B,HQ16 8.41b Busns3: Occupation
+NF42,HQ16 8.42 Busns3: Partnership
+NF43,HQ16 8.43 Business 3: Gross receipts (rupees)
+NF44A,HQ16 8.44a Business 3: Rent (rupees)
+NF44B,"HQ16 8.44b Business 3: Utilities, transportation (rupees)"
+NF44C,HQ16 8.44c Business 3: Paid workers (rupees)
+NF44D,HQ16 8.44d Business 3: Raw materials & inputs (rupees)
+NF44E,"HQ16 8.44e Business 3: Business loan installment, interest, etc. (rupees)"
+NF44F,HQ16 8.44f Business 3: Other costs including taxes (rupees)
+NF44G,HQ16 8.44g Business 3: Total expenses (rupees)
+NF45,HQ16 8.45 Business 3: Net income (rupees)
+NF46,HQ16 8.46 Business 3: Investments (rupees)
+NF47,HQ16 8.47 Busns3: Work place
+NF48,HQ16 8.48 Busns3: Family work
+NF54,HQ16 8.54 Business 3: Total loss (rupees)
+NF55,HQ16 8.55 Business 3: Primary decision maker (ID)
+IN1,HQ17 9.1 Income: renting property (rupees)
+IN2,HQ17 9.2 Income: interest (rupees)
+IN3A,HQ17 9.3a Income: Government pension (rupees)
+IN3B,HQ17 9.3b Income: Private pension (rupees)
+IN4A,HQ17 9.4a Income: sale non-agricultural land (rupees)
+IN4B,HQ17 9.4b Income: sale agricultural land (rupees)
+IN5,HQ17 9.5 Income: scholarship/gift (rupees)
+IN6,HQ17 9.6 Income: other government source (rupees)
+IN7,HQ17 9.7 Income: other source (rupees)
+IN7NM,HQ17 9.7 Income: other source name
+IN11S1,HQ17 9.11-1 N Old Age Pension
+IN13S1,HQ17 9.13-1 Old Age Pension Rs
+IN11S2,HQ17 9.11-2 N Widows Pension
+IN13S2,HQ17 9.13-2 Widows Pension Rs
+IN11S3,HQ17 9.11-3 N Maternity Benefit
+IN13S3,HQ17 9.13-3 Maternity Benefit Rs
+IN11S4,HQ17 9.11-4 N Disability Pension
+IN13S4,HQ17 9.13-4 Disability Pension Rs
+IN11S5,HQ17 9.11-5 N Annapurna
+IN13S5,HQ17 9.13-5 Annapurna Rs
+IN11S6,HQ17 9.11-6 N Other govt
+IN13S6,HQ17 9.13-6 Other govt Rs
+IN11S7,HQ17 9.11-7 N NGOs/Charities
+IN13S7,HQ17 9.13-7 NGOs/Charities Rs
+IN11S8,HQ17 9.11-8 N other programs
+IN13S8,HQ17 9.13-8 other programs Rs
+IN14,HQ17 9.14 Better off last 6-7 yrs
+IN15A1,HQ18 9.15a Life Insurance government
+IN15A2,HQ18 9.15a Life Insurance private
+IN15B1,HQ18 9.15b Health Insurance government
+IN15B2,HQ18 9.15b Health Insurance private
+IN15C1,HQ18 9.15c Crop Insurance government
+IN15C2,HQ18 9.15c Crop Insurance private
+IN15D1,"HQ18 9.15d Latrines, toilets: government"
+IN15D2,"HQ18 9.15d Latrines, toilets: private"
+IN15E1,HQ18 9.15e Kisan credit card
+IN15F1,HQ18 9.15f Indira Awas Yojana
+IN15G1,HQ18 9.15g Girl child registration
+IN16,HQ18 9.16 N NREGA job cards
+IN17,HQ18 9.17 NREGA job card application
+IN25,HQ18 9.25 NREGA payment wait
+RC1,HQ18 10.1 Ration card
+RC1A,HQ18 10.1a Ration cards N
+RC1B1,HQ18 10.1b Ration card type: BPL
+RC1B2,HQ18 10.1b Ration card type: APL
+RC1B3,HQ18 10.1b Ration card type: Antodaya
+RC1B4,HQ18 10.1b Ration card type: Annapurna
+RC1C,HQ18 10.1c Ration card N household members listed
+RC1D,HQ18 10.1d Ration card used last 6 months
+RC1E,HQ18 10.1e Ration card why not used
+RC1F,HQ18 10.1f Ration card voucher last 6 months
+RC2,HQ18 10.2 Ration card why none
+RC3A,HQ18 10.3a Anyone in the household have: Photo ID
+RC3B,HQ18 10.3b Anyone in the household have: Proof of residence
+RC3C,HQ18 10.3c Anyone in the household have: Rastriya Swasthya Bima Yojana (RSBY) card
+RC3D,HQ18 10.3d Anyone in the household have: Jati certificate/Reserve category
+RC4,HQ18 10.4 Aware of Aadhar / Unique ID Number / program?
+RC4A,HQ18 10.4a Anybody in household have Aadhar ID card
+MM1M,HQ22 13.1m How often radio: Men
+MM2M,HQ22 13.2m How often newspaper: Men
+MM3M,HQ22 13.3m How often TV: Men
+MM4M,HQ22 13.4m TV hrs/day: Men
+MM1W,HQ22 13.1w How often radio: Women
+MM2W,HQ22 13.2w How often newspaper: Women
+MM3W,HQ22 13.3w How often TV: Women
+MM4W,HQ22 13.4w TV hrs/day: Women
+MM1C,HQ22 13.1c How often radio: Children
+MM2C,HQ22 13.2c How often newspaper: Children
+MM3C,HQ22 13.3c How often TV: Children
+MM4C,HQ22 13.4c TV hrs/day: Children
+MM5,HQ22 13.5 Computer knowledge
+MM10,HQ22 13.10 Own: mobile phone
+CO1A,HQ23 14.1a Rice: kg
+CO1B,HQ23 14.1b Rice: homegrown or purchased
+CO1C,HQ23 14.1c Rice: market price one kg (rupees)
+CO1D,HQ23 14.1d Rice: from ration/PDS shop kg
+CO1E,HQ23 14.1e Rice: from ration/PDS shop price one kg (rupees)
+CO1X,HQ23 14.1 Rice: total Rs
+CO2A,HQ23 14.2a Wheat/Flour: kg
+CO2B,HQ23 14.2b Wheat/Flour: homegrown or purchased
+CO2C,HQ23 14.2c Wheat/Flour: market price one kg (rupees)
+CO2D,HQ23 14.2d Wheat/Flour: from ration/PDS shop kg
+CO2E,HQ23 14.2e Wheat/Flour: from ration/PDS shop price one kg (rupees)
+CO2X,HQ23 14.2 Wheat/Flour: total Rs
+CO3A,HQ23 14.3a Sugar: kg
+CO3B,HQ23 14.3b Sugar: homegrown or purchased
+CO3C,HQ23 14.3c Sugar: market price one kg (rupees)
+CO3D,HQ23 14.3d Sugar: from ration/PDS shop kg
+CO3E,HQ23 14.3e Sugar: from ration/PDS shop price one kg (rupees)
+CO3X,HQ23 14.3 Sugar: total Rs
+CO4A,HQ23 14.4a Kerosene: Litres
+CO4B,HQ23 14.4b Kerosene: purchased
+CO4C,HQ23 14.4c Kerosene: market price one litre (rupees)
+CO4D,HQ23 14.4d Kerosene: from ration/PDS shop litres
+CO4E,HQ23 14.4e Kerosene: from ration/PDS shop price one litre (rupees)
+CO4X,HQ23 14.4 Kerosene: total Rs
+CO5A,HQ23 14.5a Other cereals: kg
+CO5B,HQ23 14.5b Other cereals: homegrown or purchased
+CO5C,HQ23 14.5c Other cereals: market price one kg (rupees)
+CO5D,HQ23 14.5d Other cereals: from ration/PDS shop kg
+CO5E,HQ23 14.5e Other cereals: from ration/PDS shop price one kg (rupees)
+CO5X,HQ23 14.5 Other Cereals: total Rs
+CO6A,HQ23 14.6a Pulses and pulse products: kg
+CO6B,HQ23 14.6b Pulses and pulse products: homegrown or purchased
+CO6C,HQ23 14.6c Pulses and pulse products: market price one kg (rupees)
+CO6T,HQ23 14.6t Pulses: Rs
+CO6X,HQ23 14.6 Pulses and pulse products: total Rs
+CO7A,HQ23 14.7a Meat: kg
+CO7B,HQ23 14.7b Meat: homegrown or purchased
+CO7C,HQ23 14.7c Meat: market price one kg (rupees)
+CO7T,HQ23 14.7t Meat: Rs
+CO7X,HQ23 14.7 Meat: total Rs
+CO8A,HQ23 14.8a Sweeteners: kg
+CO8B,HQ23 14.8b Sweeteners: homegrown or purchased
+CO8C,HQ23 14.8c Sweeteners: market price one kg (rupees)
+CO8T,HQ23 14.8t Sweeteners: Rs
+CO8X,HQ23 14.8 Gue & sweets: total Rs
+CO9A,HQ23 14.9a Edible oil and vanaspati: Litres
+CO9B,HQ23 14.9b Edible oil and vanaspati: homegrown or purchased
+CO9C,HQ23 14.9c Edible oil and vanaspati: market price one litre (rupees)
+CO9T,HQ23 14.9t Edible oil and vanaspati: Rs
+CO9X,HQ23 14.9 Edible oil and vanaspati: total Rs
+CO10A,HQ23 14.10a Eggs: dozens
+CO10B,HQ23 14.10b Eggs: homegrown or purchased
+CO10C,HQ23 14.10c Eggs: market price
+CO10T,HQ23 14.10t Eggs: Rs
+CO10X,HQ23 14.10 Eggs: total Rs
+CO11A,HQ23 14.11a Milk: Litres
+CO11B,HQ23 14.11b Milk: homegrown or purchased
+CO11C,HQ23 14.11c Milk: market price one litre (rupees)
+CO11T,HQ23 14.11t Milk: Rs
+CO11X,HQ23 14.11 Milk: total Rs
+CO12B,HQ23 14.12b Milk products: homegrown or purchased
+CO12T,HQ23 14.12t Milk products: Total value Rs
+CO12X,HQ23 14.12 Milk Prod: total Rs
+CO13B,HQ23 14.13b Cereal products: homegrown or purchased
+CO13T,HQ23 14.13t Cereal products: Total value Rs
+CO13X,HQ23 14.13 Cereal products: total Rs
+CO14B,HQ23 14.14b Vegetables: homegrown or purchased
+CO14T,HQ23 14.14t Vegetables: Total value Rs
+CO14X,HQ23 14.14 Vegetables: total Rs
+CO15,HQ24 14.15 Salt/spices: Total value Rs
+CO16,HQ24 14.16 Tea & coffee: Total value Rs
+CO17,HQ24 14.17 Processed foods: Total value Rs
+CO18,HQ24 14.18 Paan/tobacco/intoxicants: Total value Rs
+CO19,HQ24 14.19 Fruits/nuts: Total value Rs
+CO20,HQ24 14.20 Restaurants/Eating out: Total value Rs
+CO21,HQ24 14.21 Household fuel: Total value Rs
+CO22,HQ24 14.22 Household electricity: Total value Rs
+CO23,HQ24 14.23 Entertainment: Total value Rs
+CO24,HQ24 14.24 Telephone/Cable/Internet charges: Total value Rs
+CO25,HQ24 14.25 Toiletries Rs
+CO26,HQ24 14.26 Household itmes Rs
+CO27,"HQ24 14.27 Soap, detergents Rs"
+CO28,HQ24 14.28 Transportation: Total value Rs
+CO29,"HQ24 14.29 Petrol, vehicle maintenance: Total value Rs"
+CO30,HQ24 14.30 House rent/Society charges: Total value Rs
+CO30A,HQ24 14.30a House loan installment: Total value Rs
+CO30B,HQ24 14.30b Other rent (includes appliances): Total value Rs
+CO31,HQ24 14.31 Consumer taxes/fees: Total value Rs
+CO32,"HQ24 14.32 Services (domestic servants, barber, laundry, etc.): Total value Rs"
+CO33,HQ24 14.33 Medical (out-patient services): Total value Rs
+CO34,HQ25 13.34 Medical (in-patient): Total value Rs
+CO35,HQ25 14.35 School/College fees: Total value Rs
+CO36,HQ25 14.36 Private Tuition fees (Coaching fees): Total value Rs
+CO37,HQ25 14.37 School books: Total value Rs
+CO38,HQ25 14.38 Clothing/bedding: Total value Rs
+CO39,HQ25 14.39 Footwear: Total value Rs
+CO40,HQ25 14.40 Furniture/fixtures: Total value Rs
+CO41,HQ25 14.41 Crockery/utensils: Total value Rs
+CO42,HQ25 14.42 Cooking and Household appliances: Total value Rs
+CO43,HQ25 14.43 Recreation goods: Total value Rs
+CO44,HQ25 14.44 Jewelry and ornaments: Total value Rs
+CO45,HQ25 14.45 Personal Transport equipment: Total value Rs
+CO46,HQ25 14.46 Therapeutic appliances: Total value Rs
+CO47,HQ25 14.47 Personal care & household items: Total value Rs
+CO48,HQ25 14.48 Other personal goods: Total value Rs
+CO49,HQ25 14.49 Repair/ maintenance: Total value Rs
+CO50,HQ25 14.50 Insurance premiums: Total value Rs
+CO51,HQ25 14.51 Vacations/Holidays: Total value Rs
+CO52,HQ25 14.52 Social functions: Total value Rs
+COTOTAL,HQ23 14. Total household consumption expenditure
+COPC,HQ23 14. Household expenditure /capita
+POOR,"Expenditure/ capita < povertyline (Tendulkar, 2012)"
+CG1,HQ26 15.1 House own/rent
+CG1A,HQ26 15.1a Rental agreement
+CG2,HQ26 15.2 N books owned
+CG3,HQ26 15.3 Poor/ Middle-/ comfortable
+CG4,HQ26 15.4 Own: Cycle/bicycle
+CGVEHICLE,"HQ26 15.4,8,21 hh owns any vehicle"
+CG5,HQ26 15.5 Own: Sewing machine
+CG6,HQ26 15.6 Own: Generator set
+CG7,HQ26 15.7 Own: Mixer/grinder
+CG8,HQ26 15.8 Own: Motor cycle/Scooter
+CGMOTORV,"HQ26 15.8,.21 hh owns motor vehicle"
+CG9,HQ26 15.9 Own: Black & White TV
+CGTV,"HQ26 15.9,10 Household owns TV"
+CG10,HQ26 15.10 Own: Colour TV
+CG11,HQ26 15.11 Own: Air cooler
+CGCOOLING,"HQ26 15.11,22 Household owns cooler or AC"
+CG12,HQ26 15.12 Own: Clock/watch
+CG13,HQ26 15.13 Own: Electric fan
+CG14,HQ26 15.14 Own: Chair/table
+CG15,HQ26 15.15 Own: Cot
+CG16,HQ26 15.16 Own: Telephone
+CG17,HQ26 15.17 Own: Cell phone
+CG18,HQ26 15.18 Own: Refrigerator
+CG19,HQ26 15.19 Own: Pressure cooker
+CG20,HQ26 15.20 Own: Cable/Dish T.V
+CG21,HQ26 15.21 Own: Car
+CG22,HQ26 15.22 Own: Air conditioner
+CG23,HQ26 15.23 Own: Washing machine
+CG24,HQ26 15.24 Own: Computer
+CGCOMPUTER,"HQ26 15.24,25 Household has computer or laptop"
+CG25,HQ26 15.25 Own: Laptop
+CG26,HQ26 15.26 Own: Credit card
+CG27,HQ26 15.27 Own: Microwave
+CG28,HQ26 15.28 Own: 2 pairs of clothes
+CG29,HQ26 15.29 Own: Footwear
+ASSETS,Total household assets (0-33)
+ASSETS2005,"Total household assets, same as IHDS 2005"
+DB1,HQ27 16.1a Debt: any loan last 5 years
+DB1A,HQ27 16.1a Debt: bank
+DB1B,HQ27 16.1b Debt: micro-finance
+DB1C,HQ27 16.1c Debt: money lender
+DB1D,HQ27 16.1d Debt: employer
+DB1E,"HQ27 16.1e Debt: relatives, friends"
+DB1F,HQ27 16.1f Debt: other
+DB2,HQ27 16.2 N loans last 5 yrs
+DB2A,HQ27 16.2a Years ago largest loan
+DB2B,HQ27 16.2b Loan largest amount (rupees)
+DB2C,HQ27 16.2c Loan purpose
+DB2CNM,HQ27 16.2c Loan purpose: other
+DB2D,HQ27 16.2d Loan source
+DB2DNM,HQ27 16.2d Loan source: other
+DB2E,HQ27 16.2e Loan monthly rate
+DB2F,HQ27 16.2f Loan annual rate
+DB2G,HQ27 16.2g Loan paid off
+DB3,HQ27 16.3 Inherited father's loans
+DB4A,HQ27 16.4a Land sold to pay off loan
+DB4B,HQ27 16.4b Jewelry sold to pay off loan
+DB5,HQ27 16.5 Outstanding Household debt (rupees)
+DB6,HQ27 16.6 Debt with shopkeeper
+DB6A,HQ27 16.6 Debt shopkeeper Rs
+DB7,HQ27 16.7 Credit due to the Household
+DB8A,HQ28 16.8a Apply to bank
+DB8B,HQ28 16.8b Apply to micro finance
+DB8C,HQ28 16.8c Apply to money lender
+DB8D,HQ28 16.8d Apply to employer
+DB8E,"HQ28 16.8e Apply to relatives, friends"
+DB8F,HQ28 16.8f Apply to others
+DB9A,HQ28 16.9a Invest in buying property/house
+DB9B,HQ28 16.9b Invest in expanding property/house
+DB9C,HQ28 16.9c Bought securities
+DB9D,HQ28 16.9d Fixed Deposit
+DB9E,HQ28 16.9e Bank savings
+DB9F,HQ28 16.9f Credit society
+DB9G,HQ28 16.9g Post Office Account
+DB9H,"HQ28 16.9h Pension, LIC, other"
+DB9I,"HQ28 16.9i Gold, jewelry?"
+SN1,HQ28 17.1 Mother tongue
+SN1NM,HQ28 17.1a Mother tongue other
+SN2A1,HQ28 17.2a Acquaintance with Doctors among relatives/caste/community
+SN2A2,HQ28 17.2a Acquaintance with Doctors outside community/caste
+SN2B1,HQ28 17.2b Acquaintance with other health workers among relatives/caste/community
+SN2B2,HQ28 17.2b Acquaintance with Health outside community/caste
+SN2C1,HQ28 17.2c Acquaintance with Teachers/Principal among relatives/caste/community
+SN2C2,HQ28 17.2c Acquaintance with Teachers outside community/caste
+SN2D1,HQ28 17.2d Acquaintance with other school workers among relatives/caste/community
+SN2D2,HQ28 17.2d Acquaintance with other school workers outside community/caste
+SN2E1,HQ28 17.2e Acquaintance with Officer among relatives/caste/community
+SN2E2,HQ28 17.2e Acquaintance with Officer outside community/caste
+SN2F1,HQ28 17.2f Acquaintance with other govt. employees among relatives/caste/community
+SN2F2,HQ28 17.2f Acquaintance with other govt. employees outside community/caste
+SN2G1,HQ28 17.2g Acquaintance with Elected Politician among relatives/caste/community
+SN2G2,HQ28 17.2g Acquaintance with Elected Politician outside community/caste
+SN2H1,HQ28 17.2h Acquaintance with political party officials among relatives/caste/community
+SN2H2,HQ28 17.2h Acquaintance with political party officials outside community/caste
+SN2I1,HQ28 17.2i Acquaintance with Inspector among relatives/caste/community
+SN2I2,HQ28 17.2i Acquaintance with Inspector outside community/caste
+SN2J1,HQ28 17.2j Acquaintance with other police among relatives/caste/community
+SN2J2,HQ28 17.2j Acquaintance with other police outside community/caste
+SN2K1,HQ28 17.2k Acquaintance with Military among relatives/caste/community
+SN2K2,HQ28 17.2k Acquaintance with Military outside community/caste
+ME1,HQ29 18.1 Member Mahila mandal
+ME2,HQ29 18.2 Member Youth/Sports/Read
+ME3,HQ29 18.3 Member Union/Business/Professional group
+ME4,HQ29 18.4 Member Self Help Group
+ME5,HQ29 18.5 Member Credit/Savings Group
+ME6,HQ29 18.6 Member Religious Group
+ME7,HQ29 18.7 Member Social Group or festival society
+ME8,HQ29 18.8 Member Caste Association
+ME9,HQ29 18.9 Member Development Group or NGO
+ME10,"HQ29 18.10 Member Agricultural, milk, or other co-operative"
+ME11,HQ29 18.11 Member Political Party
+ME12,HQ29 18.12 Member Lions/Rotary club & Other
+ME13,HQ29 18.13 Attend public meeting
+ME14,HQ29 18.14 Panchayat member/official in household
+ME14A,HQ29 18.14a Panchayat member/official close to household
+TR1,HQ29 19.1 Conflict in village
+TR2,HQ29 19.2 Solve local problems
+TR3,HQ29 19.3 Conflict among communities/jatis in village
+TR4A,HQ29 19.4a Practice untouchability
+TR4B,HQ29 19.4b Problem if scheduled caste in kitchen or share utensils
+TR4C,HQ29 19.4c Household members experienced untouchability last 5 years
+LC1,HQ29 20.1 Theft last 12 months
+LC2,HQ29 20.2 Break-in last 12 months
+LC3,HQ29 20.3 Attack/threat last 12 months
+LC4,HQ29 20.4 Harassment of girls
+CI1,HQ30 21.1 Confidence: Politicians - to fulfil promises
+CI2,HQ30 21.2 Confidence: Military - to defend country
+CI3,HQ30 21.3 Confidence: Police - to enforce the law
+CI4,HQ30 21.4 Confidence: State government - to look after the people
+CI5,HQ30 21.5 Confidence: Newspapers/News media - to print/broadcast the truth
+CI6,HQ30 21.6 Confidence: Panchayats - to implement public projects
+CI7,HQ30 21.7 Confidence: Government Schools - to provide good education
+CI8,HQ30 21.8 Confidence: Private Schools - to provide good education
+CI9,HQ30 21.9 Confidence: Governmentt hospitals and doctors - to provide good treatment
+CI10,HQ30 21.10 Confidence: Private hospitals and doctors - to provide good treatment
+CI11,HQ30 21.11 Confidence: Courts - to deliver justice
+CI12,HQ30 21.12 Confidence: Banks - to keep money safe
+MI1,HQ30 22.1 Major illness/Accidents - large amount of expenditure/loss
+MI2,"HQ30 22.2 Drought, Flood, Fire - large amount of expenditure/loss"
+MI3,HQ30 22.3 Loss of job - large amount of expenditure/loss
+MI4,HQ30 22.4 Marriage - large amount of expenditure/loss
+MI5,HQ30 22.5 Crop Failure - large amount of expenditure/loss
+MI6,HQ30 22.6 Death - large amount of expenditure/loss
+MI7,HQ30 22.7 Other loss - large amount of expenditure/loss
+MI7NM,HQ30 22.7 Other loss specify - large amount of expenditure/loss
+OH1B,HQ32 24.1b ID Primary respondent
+OH2A,HQ32 24.2 ID Other respondent 1
+OH2B,HQ32 24.2 ID Other respondent 2
+OH2C,HQ32 24.2 ID Other respondent 3
+OH2D,HQ32 24.2 ID Other respondent 4
+OH3,HQ32 24.3 Non-Household members present at interview
+OH4,HQ32 24.4 Interviewer Observation: Conveying Purpose to R
+OH5,HQ32 24.5 Interviewer Observation: R Difficulty Understanding
+OH6,HQ32 24.6 Interviewer Observation: R Looked at interviewer while answering
+OH7,HQ32 24.7 Interviewer Observation: R Responded Clearly
+OH8,HQ32 24.8 Interviewer Observation: R Knows expenditure
+OH9,HQ32 24.9 Interviewer Observation: R Confident
+OH10,HQ32 24.10 Interviewer Observation: Reliability of response
+OH11,HQ32 24.11 Interviewer Observation: R Remembered 2005 interview
+OH12D,HQ32 24.12 Interview Completion Day
+OH12M,HQ32 24.12 Interview Completion Month
+OH12Y,HQ32 24.12 Interview Completion Year
+OH12DATE,HQ32 24.12 Interview (integer) date
+OH13A,HQ32 24.13 Interview end hour
+OH13B,HQ32 24.13 Interview end minute
+OH13C,HQ32 24.13 Interview end (AM/PM)
+CD3D,EQ2 3 Interview day
+CD3M,EQ2 3 Interview month
+CD3Y,EQ2 3 Interview year
+CD3DATE,EQ2 3 Interview (integer) date
+CD4A,EQ2 4 Interview start hour
+CD4B,EQ2 4 Interview start minute
+CD4C,EQ2 4 AM/PM Interview time
+HI11,EQ3 1.11 Interview Language Code
+MP1A,EQ8 4.1a Permissible in your community: Marry daughter natal village
+MP1B,EQ8 4.1b Permissible in your community: Marry daughter cousin
+MP1C,EQ8 4.1c Permissible in your community: Widow remarriage
+MP2A,EQ8 4.2a Know anyone in your community: Intercaste marriage
+MP2B,EQ8 4.2b Know anyone in your community: Divorce in community
+MP3A,EQ8 4.3a Boy's family wedding expenses: low (rupees)
+MP3B,EQ8 4.3b Boy's family wedding expenses: high (rupees)
+MP4A,EQ8 4.4a Girl's family wedding expenses: low (rupees)
+MP4B,EQ8 4.4b Girl's family wedding expenses: high (rupees)
+MP5A,EQ8 4.5 N guests invited by bride's family
+MP5B,EQ8 4.5 N guests invited by groom's family
+MP6A,EQ8 4.6a Wedding gift in your community: gold
+MP6B,EQ8 4.6b Wedding gift in your community: silver
+MP6C,EQ8 4.6c Wedding gift in your community: land
+MP6D,EQ8 4.6d Wedding gift in your community: car
+MP6E,EQ8 4.6e Wedding gift in your community: scooter or motorcycle
+MP6F,EQ8 4.6f Wedding gift in your community: TV
+MP6G,EQ8 4.6g Wedding gift in your community: Fridge
+MP6H,EQ8 4.6h Wedding gift in your community: Mobile phone
+MP6I,EQ8 4.6i Wedding gift in your community: Furniture
+MP6J,EQ8 4.6j Wedding gift in your community: Pressure cooker
+MP6K,EQ8 4.6k Wedding gift in your community: Utensils
+MP6L,EQ8 4.6l Wedding gift in your community: Mixer/Grinder
+MP6M,EQ8 4.6m Wedding gift in your community: Bedding/Mattress
+MP6N,EQ8 4.6n Wedding gift in your community: Watch
+MP6O,EQ8 4.6o Wedding gift in your community: Bicycle
+MP6P,EQ8 4.6p Wedding gift in your community: Sewing machine
+MP6Q,"EQ8 4.6q Wedding gift in your community: Livestock (cows, buffalo, etc.)"
+MP6R,EQ8 4.6r Wedding gift in your community: Washing machine
+MP6S,EQ8 4.6s Wedding gift in your community: LPG
+MP6T,EQ8 4.6t Wedding gift in your community: Flat/House
+MP6U,EQ8 4.6u Wedding gift in your community: Cash
+MP6V,EQ8 4.6v Wedding gift in your community: Computer/Laptop
+MP7A,EQ8 4.7a Wedding gift in your community: Cash amount low (rupees)
+MP7B,EQ8 4.7b Wedding gift in your community: Cash amount high (rupees)
+WA1A,EQ9 5.1a Main water source: normally
+WA1B,EQ9 5.1b Main water source: summer
+WATER,"EQ9 5.1a,b indoor piped drinking water"
+WA2A,EQ9 5.2a Water inside or outside house/compound: normally
+WA2B,EQ9 5.2b Water inside or outside house/compound: summer
+WA3A,EQ9 5.3a Piped water supply hours/day: normally
+WA3B,EQ9 5.3b Piped water supply hours/day: summer
+WA4A,EQ9 5.4a Walking time to external water source (minutes one way): normally
+WA4B,EQ9 5.4b Walking time to external water source (minutes one way): summer
+WA5A,EQ9 5.5a Water availability adequate: normally
+WA5B,EQ9 5.5b Water availability adequate: summer
+WA6A,EQ9 5.6a Time spent getting water (minutes/day): adult women
+WA6B,EQ9 5.6b Time spent getting water (minutes/day): adult men
+WA6C,EQ9 5.6c Time spent getting water (minutes/day): girls under 15
+WA6D,EQ9 5.6d Time spent getting water (minutes/day): boys under 15
+WA7,"EQ9 5.7 Purify water by boiling, filtering, Aquaguard, or chemicals"
+WA8,EQ9 5.8 Drinking water storage vessel at home
+WA8A,EQ9 5.8a Drinking water stored in vessel with lid
+WA8B,EQ9 5.8b Drinking water pouring
+SA1,EQ10 6.1 Number of rooms in house
+SA2,EQ10 6.2 Cooking place in house
+SAKITCHEN,EQ10 6.2 Separate kitchen in the household
+SA2A,EQ10 6.2a Window or vent in cooking area
+SA3,"EQ10 6.3 Household help or servants (cleaning, cooking, childcare)"
+SA4,EQ10 6.4 Household Toilet
+SATOILET,EQ10 6.4 Household has a flush toilet
+SA5,EQ10 6.5 Access to public or shared toilet
+SA6,EQ10 6.6 Handwash after defecation
+SA6A,EQ10 6.6a Use in handwash
+FU1,EQ10 7.1 Household has electricity
+FU1A,EQ10 7.1a Electricity access hours/day
+FU1B,EQ10 7.1b Electricity Payment
+FU1C,EQ10 7.1c Electricity Price Rs (30 day)
+FU2,EQ10 7.2 Meals per day
+FU3,"EQ10 7.3 Hours burning stove/chula (cooking, heating water, making tea, etc.)"
+FU4,EQ10 7.4 Non-vegetarian member in household
+FU4A,EQ10 7.4a Where eat non-vegetarian food
+FU5A,EQ10 7.5a Household cook ID
+FU6,EQ10 7.6 Household chulha type
+FU7,EQ11 7.7 Use firewood/twigs: main purpose
+FU7A,EQ11 7.7a Source of firewood/twigs
+FU7B,EQ11 7.7b Purchesed firewood/twigs last 30 days Rs
+FU8,EQ11 7.8 Use dung cake: main purpose
+FU8A,EQ11 7.8a Source of dung cake
+FU8B,EQ11 7.8b Purchesed dung cake last 30 days Rs
+FU9,EQ11 7.9 Use crop residue/by-product: main purpose
+FU9A,EQ11 7.9a Source of crop residue/by-product
+FU9B,EQ11 7.9b Purchesed crop residue/by-product last 30 days Rs
+FU10,EQ11 7.10 Use kerosene: main purpose
+FU10A,EQ11 7.10a Source of kerosene
+FU10B,Purchesed kerosene last 30 days Rs
+FU11,EQ11 7.11 Use LPG: main purpose
+FULPG,EQ11 7.11 Household uses LPG
+FU11A,EQ11 7.11a Source of LPG
+FU11B,EQ11 7.11b Purchesed LPG last 30 days Rs
+FU12,EQ11 7.12 Use coal/ charcoal: main purpose
+FU12A,EQ11 7.12a Source of coal/ charcoal
+FU12B,EQ11 7.12b Purchesed coal/ charcoal last 30 days Rs
+FU13A,EQ11 7.13 Fuel distance one-way (minutes)
+FU14A1,EQ11 7.14a1 Fuel collection frequency: adult women
+FU14A2,EQ11 7.14a2 Fuel collection total time (minutes): adult women
+FU14B1,EQ11 7.14b1 Fuel collection frequency: adult men
+FU14B2,EQ11 7.14b2 Fuel collection total time (minutes): adult men
+FU14C1,EQ11 7.14c1 Fuel collection frequency: girls under 15
+FU14C2,EQ11 7.14c2 Fuel collection total time (minutes): girls under 15
+FU14D1,EQ11 7.14d1 Fuel collection frequency: boys under 15
+FU14D2,EQ11 7.14d2 Fuel collection total time (minutes): boys under 15
+QC1,"EQ17 11.1 Last 5 years visit hospital, clinic, healer for minor illness"
+QC2,EQ17 11.2 Who consult for minor illness
+QC3,EQ17 11.3 Medical treatment location
+QC4,EQ17 11.4 Why did you go: Illness type
+QC5M,EQ17 11.5 Medical treatment Month
+QC5Y,EQ17 11.5 Medical treatment Year
+QC6,EQ17 11.6 Health provider sex
+QC7,EQ17 11.7 Doctor's and other health workers treat you:
+QC8,EQ17 11.8 Medical treatment wait time (minutes)
+QC9,EQ17 11.9 Medical treatment alone or accompanied
+QC11,EQ17 11.11 Health facility ID
+O1A,EQ18 13.1 Observations: ID primary respondent
+O2A,EQ18 13.2a Observations: ID Other respondent 1
+O2B,EQ18 13.2b Observations: ID Other respondent 2
+O2C,EQ18 13.2c Observations: ID Other respondent 3
+O2D,EQ18 13.2d Observations: ID Other respondent 4
+O3,EQ18 13.3 Observations: Non-Household members present
+HQ1,EQ35 23.1 Observations: House/Building Type
+HQ2A,EQ35 23.2a Observations: House surroundings - human and animal excrement
+HQ2B,EQ35 23.2b Observations: House surroundings - stagnant water
+HQ3,"EQ35 23.3 Observations: Animals (except dog, cat) kept in"
+HQ4,EQ35 23.4 Observations: Predominant wall type
+HQWALL,"EQ35 23.4 Wall: brick, metal, stone, concrete"
+HQ5,EQ35 23.5 Observations: Predominant roof type
+HQROOF,"EQ35 23.5 Roof: asbestos, metal, brick, stone, concrete"
+HQ6,EQ35 23.6 Observations: Predominant floor type
+HQFLOOR,"EQ35 23.6 Floor: not mud, wood"
+OG1,EQ35 24.1 Observations: Difficulty conveying purpose to respondent
+OG2,EQ35 24.2 Observations: Respondent difficulty understanding
+OG3,EQ35 24.3 Observations: Respondent looked at interviewer while answering
+OG4,EQ35 24.4 Observations: Respondent answered clearly
+OG5,EQ35 24.5 Observations: Respondent knowledgeable about health and education expenditure
+OG6,EQ35 24.6 Observations: Respondent Confident
+OG7,EQ35 24.7 Observations: Reliability of responses
+OG8D,EQ35 24.8 Interview completion day
+OG8M,EQ35 24.8 Interview completion month
+OG8Y,EQ35 24.8 Interview completion year
+OG8DATE,EQ35 24.8 Interview completion (integer) date
+OG9A,EQ35 24.9 Interview end hour
+OG9B,EQ35 24.9 Interview end minute
+OG9C,EQ35 24.9 AM/PM Interview time
+OG10,EQ35 24.10 Interview completion status
+POVLINE2012,"Poverty cut off Tendulkar Method, adj for interview date"
+POVLINE2005,"Poverty line 2005, Tendulkar"
+DEFLATOR,"Deflator for converting 2012 prices, CPI based, month adj."
+URBAN2011,Urban residence from census 2011
+URBAN4_2011,4-cat urban/rural from 2011 census & IHDS-II vill q
+METRO,Largest 6 metro areas 0/1
+METRO6,Largest 6 metro areas 1-6
+NPERSONS,HQ4 2.0 N in household
+FM22RSHH,HH8 5.22+ Crop income
+FM23RSHH,HH8 5.23 Rs from crop production paid to landlord
+FM15BRS,HQ6 4.8c Rs paid land rented in
+FMRENT,"HQ7 4.15,23 Rs/crop to landlord"
+FM27BRS,HQ9 5.27b Rs  paid to agricultural labor
+FM27CRS,HQ9 5.27c Rs meals to agricultural labor
+FM27RS,HQ9 5.27bc Rs to farm labour
+FM28ARS,HQ9 5.28a Rs seeds
+FM29RS,HQ9 5.29 Rs last year on fertilizer and manure
+FM30RS,HQ9 5.30 Rs last year on herbicides and pesticides
+FM31RS,HQ9 5.31 Rs last year on water
+FM32RS,HQ9 5.32 Rs last year on hired equipment or animals
+FM33RS,HQ9 5.33 Rs last year on repaying loans for purchased equipment or upgrades
+FM34RS,HQ9 5.34 Rs last year on any other farm expense
+FM33IRS,HQ8 5.33i Agricultural loan interest @15%
+INCCROP,HQ7-10 Income from crops minus expenses
+FM14RS,HQ7 5.14b Rs land rented/ sharecropped out
+INCAGPROP,"HQ7 5.14,41 Rs land, other rented out"
+ANIMALMARKET,"HQ11 6.2  Milk, eggs, meat, livestock (rupees)"
+ANIMALCOST,"HQ11 6.3 animal feed, vet, labour costs (rupees)"
+INCANIMAL,"HQ11,23 mkt + home - cost"
+INCAG,HQ7-10 Income from agriculture minus expenses
+INCBUS,"HQ14-16 8.5,25,45 All businesses: Net income"
+INCOTHER,"HQ17 9.1-3 Income from property, pensions (rupees)"
+WS10HH,HQ13 7.10 annual household Rs from daily/monthly wage
+WS11MEALSHH,HQ13 7.11 annual household Rs from meal benefit
+WS11HOUSEHH,HQ13 7.11 annual household Rs from housing benefit
+WS12HH,HQ13 7.12 annual household Rs from bonuses
+INCBENEFITS,"HQ17 9.5+13,1-8 all government benefits Rs"
+INCREMIT,HQ5 3.13a Rs received by household from nonresident relative last year
+INCOME,HQ Total income
+INCOMEPC,HQ per capita income
+MHEADAGE,HQ4 2.5 ro5 Age of male head
+FHEADAGE,HQ4 2.5 ro5 Age of female head
+NADULTM,HQ4 2.5 N 21+ men in household
+NADULTF,HQ4 2.5 N 21+ women in household
+NCHILDM,HQ4 2.5 N 0-14 boys in household
+NCHILDF,HQ4 2.5 N 0-14 girls in household
+NTEENM,HQ4 2.5 N 15-20 boys in household
+NTEENF,HQ4 2.5 N 15-20 girls in household
+NELDERM,HQ4 2.5 N 60+ men in household
+NELDERF,HQ4 2.5 N 60+ women in household
+NMARRIEDM,HQ4 2.6 N married men in household
+NMARRIEDF,HQ4 2.6 N married women in household
+NWKNONAG,HQ13 7.3 N wk (>=240hrs): nonag wage
+NWKAGLAB,HQ13 7.3 N wk (>=240hrs): farm wage
+NWKSALARY,HQ13 7.3 N wk (>=240hrs): salary position
+NWKBUSINESS,"HQ14-16 nf12,13 N wk (>=240hrs): business"
+NWKFARM,"HQ10 fm37,38 N wk (>=240hrs): farm"
+NWKANIMAL,HQ11 an5 N wk (often): animal
+NWKNREGA,HQ13 7.3 N wk (>=240hrs): NREGA
+NWKNONNREGA,HQ13 7.3 N wk (>=240hrs): nonag wage not NREGA
+NWKANY5,HQ10-16 N wk (>=240hrs): any job
+INCNONAG,HQ13 7.3 income: nonag wage
+INCAGLAB,HQ13 7.3 income: farm wage
+INCSALARY,HQ13 7.3 income: salary position
+INCNREGA,HQ13 7.3 income: NREGA
+INCNONNREGA,HQ13 7.3 income: nonag wage not NREGA
+NNR,HQ5 3.0 N Household non-residents
+HHEDUC,HQ19 11.6 Highest adult education
+HHEDUCM,HQ19 11.6 Highest male adult education
+HHEDUCF,HQ19 11.6 Highest female adult education
